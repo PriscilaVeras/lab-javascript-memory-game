@@ -68,11 +68,10 @@ window.addEventListener('load', (event) => {
           memoryGame.pairsGuessed;
 
         memoryGame.pickedCards.length = 0;
-      }
 
-      if (memoryGame.checkIfFinished()) {
-        alert('Yooou wooonn!');
-        console.log('AAAAAAA CARAI');
+        if (memoryGame.checkIfFinished()) {
+          alert('Yooou wooonn!');
+        }
       }
     });
   });

@@ -8,7 +8,6 @@ class MemoryGame {
   }
 
   shuffleCards() {
-    // ... write your code here
     this.cards.sort(() => Math.random() - 0.5);
   }
 
